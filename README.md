@@ -32,8 +32,8 @@ ____
 1. Убедитесь, что Docker и Docker Compose установлены.
 2. Настройте переменные окружения в файле .env (например, POSTGRES_DB, POSTGRES_USER, POSTGRES_PASSWORD, DEBUG).
 3. Запустите контейнеры с помощью команды:
-git clone https://github.com/SadiG34/uwsgi-devops-sample-django-app.git
-cd uwsgi-devops-sample-django-ap
-docker-compose up -d
-docker-compose exec web python manage.py migrate
-Откройте ваше приложение в браузере по адресу [http://localhost:8000](http://localhost:8000).
+- git clone https://github.com/SadiG34/uwsgi-devops-sample-django-app.git
+- cd uwsgi-devops-sample-django-ap
+- docker-compose up -d
+- docker-compose exec web python manage.py migrate
+- Откройте ваше приложение в браузере по адресу [http://localhost:8000](http://localhost:8000).
